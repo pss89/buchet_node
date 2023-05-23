@@ -1,1 +1,37 @@
 nest_app/.env
+
+# compiled output
+nest_app/dist
+nest_app/node_modules
+
+# Logs
+nest_app/logs
+nest_app/*.log
+nest_app/npm-debug.log*
+nest_app/pnpm-debug.log*
+nest_app/yarn-debug.log*
+nest_app/yarn-error.log*
+nest_app/lerna-debug.log*
+
+# OS
+nest_app/.DS_Store
+
+# Tests
+nest_app/coverage
+nest_app/.nyc_output
+
+# IDEs and editors
+nest_app/.idea
+nest_app/.project
+nest_app/.classpath
+nest_app/.c9/
+nest_app/*.launch
+nest_app/.settings/
+nest_app/*.sublime-workspace
+
+# IDE - VSCode
+nest_app/.vscode/*
+nest_app/!.vscode/settings.json
+nest_app/!.vscode/tasks.json
+nest_app/!.vscode/launch.json
+nest_app/!.vscode/extensions.json
